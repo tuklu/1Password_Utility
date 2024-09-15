@@ -19,7 +19,4 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',  # Specify minimum Python version required
-    install_requires=[
-        'op'  # List any dependencies your package needs
-    ]
 )
