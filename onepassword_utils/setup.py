@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="onepassword_utils",  # Choose a unique name
-    version="0.1.0",  # Start with a version number
-    author="Your Name",
-    author_email="your.email@example.com",
+    version="0.0.1",  # Start with a version number
+    author="Jisnu Kalita",
+    author_email="jisnukalita@outlook.com",
     description="A collection of utility functions for interacting with 1Password",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/your-username/onepassword_utils",  # Replace with your project's URL
+    url="https://github.com/tuklu/Onepassword_Utils.git",  # Replace with your project's URL
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
