@@ -1,4 +1,4 @@
-# onepassword_utils 🚀
+# 1Password_Utility 🚀
 
 A collection of utility functions for interacting with 1Password via the command-line interface (CLI).
 
