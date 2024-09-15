@@ -20,7 +20,7 @@ pip install 1Password-Utility
 ## Usage
 
 ```python
-import onepassword_utils
+onepassword = __import__('1Password-Utility')
 
 # Retrieve credentials from a 1Password item
 item_uuid = "your_item_uuid"  # Replace with the actual UUID of your 1Password item
