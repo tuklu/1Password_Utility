@@ -1,4 +1,4 @@
-# onepassword_utils
+# Onepassword Utils
 
 A collection of utility functions for interacting with 1Password via the command-line interface (CLI).
 
@@ -47,12 +47,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Key points:**
 
-* **Clear sections:** The README is organized into clear sections with headings to make it easy to navigate.
-* **Prerequisites:** The prerequisites section explicitly mentions the need for 1Password and the 1Password CLI.
-* **Installation:** Provides the `pip install` command for easy installation.
-* **Usage:** Includes a concise code example demonstrating how to use the `get_credentials_from_1password` function.
-* **Important notes:** Highlights important considerations for security and setup.
-* **Contributing and License:** Encourages contributions and specifies the license under which the project is released.
+- **Clear sections:** The README is organized into clear sections with headings to make it easy to navigate.
+- **Prerequisites:** The prerequisites section explicitly mentions the need for 1Password and the 1Password CLI.
+- **Installation:** Provides the `pip install` command for easy installation.
+- **Usage:** Includes a concise code example demonstrating how to use the `get_credentials_from_1password` function.
+- **Important notes:** Highlights important considerations for security and setup.
+- **Contributing and License:** Encourages contributions and specifies the license under which the project is released.
 
 Remember to replace placeholders like `your_item_uuid` and `your-username` with your actual values. 
 
