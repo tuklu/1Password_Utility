@@ -3,7 +3,7 @@ name: Publish to PyPI
 on:
   push:
     branches:
-      - main  # Or your default branch
+      - main 
 
 jobs:
   build_and_publish:
@@ -13,6 +13,8 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v3
+        with:
+          clean: true  # Clean the working directory
       - uses: actions/setup-python@v4
         with:
           python-version: '3.12.6'
