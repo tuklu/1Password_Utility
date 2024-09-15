@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="onepassword_utils",  # Choose a unique name
+    name="1Password_Utility",  # Choose a unique name
     version="0.0.1",  # Start with a version number
     author="Jisnu Kalita",
     author_email="jisnukalita@outlook.com",
-    description="A collection of utility functions for interacting with 1Password",
+    description="1Password_Utility is a Python package providing utility functions for interacting with 1Password via the command-line interface (CLI). It simplifies the process of retrieving credentials from 1Password vaults within your Python scripts, making it easier to automate tasks and securely manage sensitive information.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tuklu/Onepassword_Utils.git",  # Replace with your project's URL
+    url="https://github.com/tuklu/1Password_Utility.git",  # Replace with your project's URL
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
