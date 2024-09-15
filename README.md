@@ -15,7 +15,7 @@ A collection of utility functions for interacting with 1Password via the command
 ## Installation
 
 ```bash
-pip install onepassword_utils
+pip install 1Password-Utility==0.0.1
 ```
 ## Usage
 
