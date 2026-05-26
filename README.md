@@ -1,18 +1,18 @@
-# 1Password_Utility 🚀
+# 1Password_Utility
 
 A collection of utility functions for interacting with 1Password via the command-line interface (CLI).
 
-## Features ✨
+## Features
 
 - Retrieve credentials (username and password) from 1Password vaults securely within your Python scripts. 🔒
 - Simplifies the process of automating tasks and managing sensitive information. 🤖
 
-## Prerequisites 📋
+## Prerequisites
 
 - **1Password:** You need to have 1Password installed and set up on your system. 
 - **1Password CLI (`op`):**  Install the 1Password CLI by following the instructions on the [1Password Developer website](https://developer.1password.com/docs/cli/get-started). 🛠️
 
-## Installation 📥
+## Installation
 
 ```bash
 pip install 1Password-Utility
@@ -29,19 +29,19 @@ username, password = onepassword_utils.get_credentials_from_1password(item_uuid)
 if username and password:
     print(f"Username: {username}")
     print(f"Password: {password}")
-    # ... Use the credentials in your script 🎉
+    # ... Use the credentials in your script
 else:
-    print("Failed to retrieve credentials.") 😕
+    print("Failed to retrieve credentials.")
 ```
-## Important:⚠️
+## Important:
 
 Make sure you have the 1Password CLI (op) installed and configured correctly before using this package.
 Handle the retrieved credentials securely within your scripts. Avoid printing them to the console or storing them in plain text. 🛡️
 
-## Contributing 🤝
+## Contributing
 Contributions are welcome! Please feel free to submit pull requests or open issues if you find any bugs or have suggestions for improvements. 
 
-## License 📄
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.   
 
 
