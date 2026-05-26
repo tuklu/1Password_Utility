@@ -10,7 +10,7 @@ A collection of utility functions for interacting with 1Password via the command
 ## Prerequisites
 
 - **1Password:** You need to have 1Password installed and set up on your system. 
-- **1Password CLI (`op`):**  Install the 1Password CLI by following the instructions on the [1Password Developer website](https://developer.1password.com/docs/cli/get-started). 🛠️
+- **1Password CLI (`op`):**  Install the 1Password CLI by following the instructions on the [1Password Developer website](https://developer.1password.com/docs/cli/get-started).
 
 ## Installation
 
