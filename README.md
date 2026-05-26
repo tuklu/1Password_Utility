@@ -4,8 +4,8 @@ A collection of utility functions for interacting with 1Password via the command
 
 ## Features
 
-- Retrieve credentials (username and password) from 1Password vaults securely within your Python scripts. 🔒
-- Simplifies the process of automating tasks and managing sensitive information. 🤖
+- Retrieve credentials (username and password) from 1Password vaults securely within your Python scripts.
+- Simplifies the process of automating tasks and managing sensitive information.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ else:
 ## Important:
 
 Make sure you have the 1Password CLI (op) installed and configured correctly before using this package.
-Handle the retrieved credentials securely within your scripts. Avoid printing them to the console or storing them in plain text. 🛡️
+Handle the retrieved credentials securely within your scripts. Avoid printing them to the console or storing them in plain text.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit pull requests or open issues if you find any bugs or have suggestions for improvements. 
