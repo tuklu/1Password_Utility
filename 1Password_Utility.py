@@ -2,15 +2,6 @@ import subprocess
 import re
 
 def get_credentials_from_1password(item_uuid):
-    """Retrieves username and password from a 1Password item using the CLI.
-
-    Args:
-        item_uuid: The UUID of the 1Password item.
-
-    Returns:
-        A tuple containing the username and password, or (None, None) if not found.
-    """
-
     try:
         result = subprocess.run(
             ["op", "item", "get", item_uuid, "--reveal"],
@@ -18,8 +9,6 @@ def get_credentials_from_1password(item_uuid):
             text=True,
             check=True,
         )
-
-        # Use regular expressions to extract username and password
         username_match = re.search(r"username:\s+(.*)", result.stdout)
         password_match = re.search(r"password:\s+(.*)", result.stdout)
 
